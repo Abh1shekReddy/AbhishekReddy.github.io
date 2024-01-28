@@ -8534,7 +8534,7 @@ h1, h2, h3, h4, h5,
           font-weight: 600;
           font-size: 14px;
           letter-spacing: 3px;
-          text-transform: uppercase;
+          text-transform: none;
           color: #ffbd39; }
         .owl-carousel.home-slider .slider-item .slider-text .text {
           position: relative;
@@ -9238,7 +9238,7 @@ textarea.form-control {
 .img,
 .blog-img,
 .user-img {
-  background-size: cover;
+  background-size: ;
   background-repeat: no-repeat;
   background-position: center center; }
 
@@ -9705,12 +9705,16 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
 
   .skills-list.horizontal-list li {
-      display: inline-block; /* or 'inline' if you prefer */
-      margin-right: 15px; /* Adjust spacing between items */
+      display: inline-block;
+      margin-right: 15px; 
   }
   
   .skills-list.horizontal-list li:not(:last-child):after {
     content: '|';
     margin-left: 15px;
-    color: #aaa; /* Adjust color as needed */
-}
+    color: #aaa; 
+  }
+
+  .navbar-brand span:not(:last-child) {
+    margin-right: 6px; 
+  }
