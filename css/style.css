@@ -9718,3 +9718,23 @@ textarea.form-control {
   .navbar-brand span:not(:last-child) {
     margin-right: 6px; 
   }
+
+  .quote-section {
+    text-align: center;
+    padding: 20px;
+    margin-top: -20px; 
+    background-color: #333; 
+}
+
+
+.quote {
+  font-style: italic;
+  color: #fff; 
+  font-size: 1.5em; 
+  line-height: 1.4; 
+}
+
+.heading-section p {
+  text-align: justify;
+  text-justify: inter-word;
+}
